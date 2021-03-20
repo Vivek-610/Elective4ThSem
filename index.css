@@ -18,9 +18,16 @@
 	border-radius: 50px;
 	padding: 5px;
 	margin: 50px;
-	color: #44318d;
 	font-weight: 700;
 	background-color: #eae7dc;
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: green;
 }
 
 html {
@@ -32,7 +39,7 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-.container {
+#container {
 	background-color: #d8c3a5;
 	border-radius: 50px;
 	padding: 2rem;
